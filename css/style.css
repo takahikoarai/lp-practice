@@ -65,6 +65,7 @@ nav a{
   top: 50%;
   left: 40%;
   transform: translate(-50%,-70%);
+  width: 60%;
 }
 
 .firstview-text-ttl{
@@ -282,6 +283,9 @@ nav a{
   border-radius: 20px;
 }
 
+.card:not(:last-child){
+  margin-right: 20px;
+}
 
 .card-imgContainer{
   width: 100%;
@@ -363,6 +367,8 @@ nav a{
 .company-box-table-data{
   border: 1px solid #ccc;
   text-align: left;
+  width: 0;
+  white-space: nowrap;
 }
 
 .company-box-table-head{
